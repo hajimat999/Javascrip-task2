@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+        #body{
+            transition: 1s;
+        }
+        #h{
+            text-align: center;
+        }
+        p{
+            font-size: 18px;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+        .a{
+            padding: 10px 15px;
+            font-size: 20px;
+            display: block;
+            cursor: pointer;
+            margin-bottom: 19px;
+        }
+    </style>
+</head>
+<body id="body">
+    <h1 id="h"></h1>
+    <button class="a" type="submit" onclick="Mode()">
+        <i id="icon" class="fa-solid fa-moon"></i>
+    </button>
+    <input id="input" type="text" placeholder="Enter Your Group Name">
+    <button onclick="AddUser()">Add Group</button>
+    <h1>Group Name: <span id="groupname"></span></h1>
+    <script src="JS/app.js"></script>
+</body>
+</html>
